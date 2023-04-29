@@ -1,0 +1,21 @@
+{
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2023-04-29 20:19:27 +0200"
+    },
+    "done": true
+  },
+  "goety:goety/root": {
+    "criteria": {
+      "tick": "2023-04-29 20:19:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-04-29 20:19:27 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

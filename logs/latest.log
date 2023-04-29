@@ -1,28 +1,579 @@
-[29Apr2023 18:59:14.041] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.8, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[29Apr2023 18:59:14.045] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 18.0.1.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[29Apr2023 18:59:14.157] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/david/Desktop/server19.2/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[29Apr2023 18:59:14.350] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\david\Desktop\server19.2\libraries\net\minecraftforge\fmlcore\1.19.2-43.2.8\fmlcore-1.19.2-43.2.8.jar is missing mods.toml file
-[29Apr2023 18:59:14.355] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\david\Desktop\server19.2\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.2.8\javafmllanguage-1.19.2-43.2.8.jar is missing mods.toml file
-[29Apr2023 18:59:14.360] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\david\Desktop\server19.2\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.2.8\lowcodelanguage-1.19.2-43.2.8.jar is missing mods.toml file
-[29Apr2023 18:59:14.364] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\david\Desktop\server19.2\libraries\net\minecraftforge\mclanguage\1.19.2-43.2.8\mclanguage-1.19.2-43.2.8.jar is missing mods.toml file
-[29Apr2023 18:59:14.445] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[29Apr2023 18:59:15.288] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[29Apr2023 18:59:17.965] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[29Apr2023 18:59:19.262] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.8, for MC 1.19.2 with MCP 20220805.130853
-[29Apr2023 18:59:19.264] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.8 Initialized
-[29Apr2023 18:59:19.718] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[29Apr2023 18:59:20.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.2.8 Target: null
-[29Apr2023 18:59:20.378] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[29Apr2023 18:59:20.875] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/david/Desktop/server19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%2399!/assets/.mcassetsroot' uses unexpected schema
-[29Apr2023 18:59:20.876] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/david/Desktop/server19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%2399!/data/.mcassetsroot' uses unexpected schema
-[29Apr2023 18:59:22.923] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[29Apr2023 18:59:23.644] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[29Apr2023 18:59:24.429] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[29Apr2023 18:59:24.430] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[29Apr2023 18:59:24.431] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[29Apr2023 18:59:24.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[29Apr2023 18:59:24.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[29Apr2023 18:59:24.557] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[29Apr2023 18:59:24.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[29Apr2023 18:59:25.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[29Apr2023 18:59:25.843] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2023 20:17:48.509] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.8, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[29abr2023 20:17:48.519] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 19.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[29abr2023 20:17:49.227] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/danie/OneDrive/Escritorio/serverminecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[29abr2023 20:17:49.825] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\danie\OneDrive\Escritorio\serverminecraft\libraries\net\minecraftforge\fmlcore\1.19.2-43.2.8\fmlcore-1.19.2-43.2.8.jar is missing mods.toml file
+[29abr2023 20:17:49.833] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\danie\OneDrive\Escritorio\serverminecraft\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.2.8\javafmllanguage-1.19.2-43.2.8.jar is missing mods.toml file
+[29abr2023 20:17:49.840] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\danie\OneDrive\Escritorio\serverminecraft\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.2.8\lowcodelanguage-1.19.2-43.2.8.jar is missing mods.toml file
+[29abr2023 20:17:49.846] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\danie\OneDrive\Escritorio\serverminecraft\libraries\net\minecraftforge\mclanguage\1.19.2-43.2.8\mclanguage-1.19.2-43.2.8.jar is missing mods.toml file
+[29abr2023 20:17:50.074] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[29abr2023 20:17:52.788] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29abr2023 20:17:52.866] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[29abr2023 20:18:00.357] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[29abr2023 20:18:03.324] [modloading-worker-0/INFO] [io.github.apace100.origins.Origins/]: Origins 1.19.2-1.7.1.0 is initializing. Have fun!
+[29abr2023 20:18:03.339] [modloading-worker-0/INFO] [Calio/]: Calio 1.19.2-1.7.0.0 initializing...
+[29abr2023 20:18:03.451] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.8, for MC 1.19.2 with MCP 20220805.130853
+[29abr2023 20:18:03.454] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.8 Initialized
+[29abr2023 20:18:03.724] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[29abr2023 20:18:03.939] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[29abr2023 20:18:03.946] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[29abr2023 20:18:04.246] [modloading-worker-0/INFO] [io.github.apace100.apoli.Apoli/]: Apoli 1.19.2-2.6.1.0 has initialized. Ready to power up your game!
+[29abr2023 20:18:06.246] [modloading-worker-0/INFO] [com.Polarice3.Goety.Goety/]: Loading compat module for mod curios
+[29abr2023 20:18:06.919] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[29abr2023 20:18:08.141] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.1.1 Target: 2.1.1
+[29abr2023 20:18:08.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[29abr2023 20:18:08.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.2.8 Target: null
+[29abr2023 20:18:08.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Starting version check at https://mrcrayfish.com/modupdatejson?id=catalogue
+[29abr2023 20:18:08.442] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Found status: BETA Current: 1.7.0 Target: 1.7.0
+[29abr2023 20:18:08.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29abr2023 20:18:08.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.2.8 Target: null
+[29abr2023 20:18:08.856] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[29abr2023 20:18:08.992] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA Current: 2.1.12 Target: 2.1.12
+[29abr2023 20:18:09.150] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29abr2023 20:18:09.240] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/danie/OneDrive/Escritorio/serverminecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
+[29abr2023 20:18:09.244] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/danie/OneDrive/Escritorio/serverminecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
+[29abr2023 20:18:12.586] [main/INFO] [Calio/]: CDRM Initialized with 15 registries
+[29abr2023 20:18:12.681] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/bronze"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:bronze_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/bronze"}}]}]
+[29abr2023 20:18:12.690] [Worker-Main-12/INFO] [com.patrigan.faction_craft.data.util.MergeableCodecDataManager/]: Beginning loading of data for data loader: faction
+[29abr2023 20:18:12.699] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/bronze_kiteshield from magistuarmory:tags/banner_pattern/pattern_item/bronze_kiteshield.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/bronze"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:bronze_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/bronze"}}]}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:12.771] [Worker-Main-12/INFO] [com.patrigan.faction_craft.FactionCraft/]: Entity types within the faction file is deprecated. They should now be in separate files in the faction_entity_type/<factionname>/ folder. For faction: medieval_warfare:aztec
+[29abr2023 20:18:12.786] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/copper"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:copper_kiteshield","count":1}}]
+[29abr2023 20:18:12.792] [Worker-Main-12/INFO] [com.patrigan.faction_craft.FactionCraft/]: Entity types within the faction file is deprecated. They should now be in separate files in the faction_entity_type/<factionname>/ folder. For faction: medieval_warfare:egyptian
+[29abr2023 20:18:12.805] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/copper_kiteshield from magistuarmory:tags/banner_pattern/pattern_item/copper_kiteshield.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/copper"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:copper_kiteshield","count":1}}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:12.819] [Worker-Main-12/INFO] [com.patrigan.faction_craft.FactionCraft/]: Entity types within the faction file is deprecated. They should now be in separate files in the faction_entity_type/<factionname>/ folder. For faction: medieval_warfare:roman
+[29abr2023 20:18:12.853] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:gems/diamond"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:diamond_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:gems/diamond"}}]}]
+[29abr2023 20:18:12.861] [Worker-Main-12/INFO] [com.patrigan.faction_craft.FactionCraft/]: Entity types within the faction file is deprecated. They should now be in separate files in the faction_entity_type/<factionname>/ folder. For faction: faction_craft:skeleton_test
+[29abr2023 20:18:12.882] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/diamond_kiteshield from magistuarmory:tags/banner_pattern/pattern_item/diamond_kiteshield.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:gems/diamond"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:diamond_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:gems/diamond"}}]}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:12.894] [Worker-Main-12/INFO] [com.patrigan.faction_craft.FactionCraft/]: Entity types within the faction file is deprecated. They should now be in separate files in the faction_entity_type/<factionname>/ folder. For faction: faction_craft:slime_test
+[29abr2023 20:18:12.920] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"item":"minecraft:gold_ingot"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:gold_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/iron"}}]}]
+[29abr2023 20:18:12.921] [Worker-Main-12/INFO] [com.patrigan.faction_craft.FactionCraft/]: Entity types within the faction file is deprecated. They should now be in separate files in the faction_entity_type/<factionname>/ folder. For faction: medieval_warfare:vikings
+[29abr2023 20:18:12.930] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/gold_kiteshield from magistuarmory:tags/banner_pattern/pattern_item/gold_kiteshield.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"item":"minecraft:gold_ingot"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:gold_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/iron"}}]}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:12.941] [Worker-Main-12/INFO] [com.patrigan.faction_craft.data.util.MergeableCodecDataManager/]: Data loader for faction loaded 0 finalized objects
+[29abr2023 20:18:12.956] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/iron"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:iron_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/iron"}}]}]
+[29abr2023 20:18:12.978] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/iron_kiteshield from magistuarmory:tags/banner_pattern/pattern_item/iron_kiteshield.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/iron"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:iron_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/iron"}}]}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:13.005] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:smithing","base":{"item":"magistuarmory:diamond_kiteshield"},"addition":{"item":"minecraft:netherite_ingot"},"result":{"item":"magistuarmory:netherite_kiteshield","count":1}}]
+[29abr2023 20:18:13.010] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/netherite_kiteshield_smithing from magistuarmory:tags/banner_pattern/pattern_item/netherite_kiteshield_smithing.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:smithing","base":{"item":"magistuarmory:diamond_kiteshield"},"addition":{"item":"minecraft:netherite_ingot"},"result":{"item":"magistuarmory:netherite_kiteshield","count":1}}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:13.036] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/silver"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:silver_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/silver"}}]}]
+[29abr2023 20:18:13.047] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/silver_kiteshield from magistuarmory:tags/banner_pattern/pattern_item/silver_kiteshield.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/silver"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:silver_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/silver"}}]}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:13.071] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/steel"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:steel_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/steel"}}]}]
+[29abr2023 20:18:13.080] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/steel_kiteshield from magistuarmory:tags/banner_pattern/pattern_item/steel_kiteshield.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/steel"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:steel_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/steel"}}]}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:13.097] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/tin"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:tin_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/tin"}}]}]
+[29abr2023 20:18:13.107] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/tin_kiteshield from magistuarmory:tags/banner_pattern/pattern_item/tin_kiteshield.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" m ","msm"," m "],"key":{"m":{"tag":"forge:ingots/tin"},"s":{"item":"magistuarmory:wood_kiteshield"}},"result":{"item":"magistuarmory:tin_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/tin"}}]}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:13.124] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["www","wmw"," w "],"key":{"m":{"tag":"forge:ingots/steel"},"w":{"tag":"minecraft:planks"}},"result":{"item":"magistuarmory:wood_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"minecraft:planks"}}]}]
+[29abr2023 20:18:13.138] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list magistuarmory:pattern_item/wood_kiteshield from magistuarmory:tags/banner_pattern/pattern_item/wood_kiteshield.json in data pack [1.19.2-forge]-Epic-Knights-7.11.jar
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["www","wmw"," w "],"key":{"m":{"tag":"forge:ingots/steel"},"w":{"tag":"minecraft:planks"}},"result":{"item":"magistuarmory:wood_kiteshield","count":1},"conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"minecraft:planks"}}]}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$4(DataResult.java:100) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:177) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) [?:?]
+[29abr2023 20:18:14.754] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe bucolicraces:glowworm_silk
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:glowshroom'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.2.8-universal.jar%23144!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.2.8-universal.jar%23144!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:96) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:81) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:77) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.2.8-universal.jar%23144!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.2.8.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[29abr2023 20:18:14.798] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe bucolicraces:glowing_moss_block
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:glowshroom'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.2.8-universal.jar%23144!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.2.8-universal.jar%23144!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:96) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:81) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:77) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.2.8-universal.jar%23144!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.2.8.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[29abr2023 20:18:14.830] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[29abr2023 20:18:15.175] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table medieval_warfare:vikingfort
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:gold_chestplate'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.2.8-universal.jar%23144!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23139!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.2.8.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[29abr2023 20:18:16.596] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1362 advancements
+[29abr2023 20:18:16.603] [main/INFO] [com.patrigan.faction_craft.data.util.CodecJsonDataManager/]: Beginning loading of data for data loader: faction_entity_type
+[29abr2023 20:18:16.606] [main/INFO] [com.patrigan.faction_craft.data.util.CodecJsonDataManager/]: Data loader for faction_entity_type loaded 24 jsons
+[29abr2023 20:18:16.626] [main/ERROR] [io.github.apace100.origins.Origins/]: There was a problem reading Origin file bucolicraces:treant (skipping): Identifier "biomesoplenty:mahogany_sapling" was not registered in registry "minecraft:item".
+[29abr2023 20:18:16.628] [main/ERROR] [io.github.apace100.origins.Origins/]: All instances of origin bucolicraces:treant failed to load. Skipped
+[29abr2023 20:18:16.712] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/irongolem/metal_bar" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'engineersdecore:metal_bar', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'engineersdecore:metal_bar', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:16.718] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:reach_modifiers/extra_reach" will only be partially loaded: At Attribute: Identifier "reach-entity-attributes:attack_range" was not registered in registry "minecraft:attribute".; At Attribute: Identifier "reach-entity-attributes:reach" was not registered in registry "minecraft:attribute".
+[29abr2023 20:18:16.779] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/vampire/blood_slime_balls" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'tconstruct:blood_slime_ball', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'tconstruct:blood_slime_ball', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:16.822] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/fireelemental/blazingbucket" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'tconstruct:blazing_blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'tconstruct:blazing_blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:16.843] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/relic/scortchedbrick" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'tconstruct:scortched_brick', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'tconstruct:scortched_brick', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:16.886] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/candle/tallow" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'occultism:tallow', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'occultism:tallow', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:16.936] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/relic/ashbrick" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'supplementaries:ash_brick', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'supplementaries:ash_brick', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:16.982] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/poltergeist/soul_heart" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'alexsmobs:soul_heart', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'alexsmobs:soul_heart', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:16.996] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:biome_modifiers/iceelemental" will only be partially loaded: Failed to read fields: Unknown registry key: origins:temperature
+[29abr2023 20:18:17.028] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'create:crushed_iron_ore', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'create:crushed_iron_ore', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.032] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:zmisc_modifiers/breakspeed" will only be partially loaded: Unknown registry key: origins:in_tag, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.066] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/relic/searedbrick" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'tconstruct:seared_brick', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'tconstruct:seared_brick', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.069] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:reach_modifiers/halfreach" will only be partially loaded: At Attribute: Identifier "reach-entity-attributes:attack_range" was not registered in registry "minecraft:attribute".; At Attribute: Identifier "reach-entity-attributes:reach" was not registered in registry "minecraft:attribute".
+[29abr2023 20:18:17.097] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/vampire/blood_bucket1" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'biomesoplenty:blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'biomesoplenty:blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.112] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/vampire/blood_bucket2" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'hexerei:blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'hexerei:blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.160] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/candle/animalfat" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'hexerei:animal_fat', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'hexerei:animal_fat', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.188] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/ghoul/blood_bottle" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'hexerei:blood_bottle', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'hexerei:blood_bottle', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.230] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/poltergeist/soul_bottle" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'dungeonsmod:soul_bottle', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'dungeonsmod:soul_bottle', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.301] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/irongolem/iron_sheet" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'create:iron_sheet', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'create:iron_sheet', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.320] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/ghoul/blood_bucket1" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'biomesoplenty:blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'biomesoplenty:blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.340] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/vampire/blood_bottle" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'hexerei:blood_bottle', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'hexerei:blood_bottle', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.370] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/ghoul/blood_bucket2" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'hexerei:blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'hexerei:blood_bucket', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.425] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/ghoul/ootheca" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'alexsmobs:cockroach_ootheca', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'alexsmobs:cockroach_ootheca', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.456] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls" will only be partially loaded: Failed to read fields: At Ingredient: Unknown item 'tconstruct:blood_slime_ball', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject; At Ingredient: Unknown item 'tconstruct:blood_slime_ball', At ResourceLocation: JsonObject, At ResourceLocation: JsonObject, At ResourceLocation: JsonObject
+[29abr2023 20:18:17.458] [main/WARN] [io.github.apace100.apoli.Apoli/]: Power "bucolicraces:reach_modifiers/quarterreach" will only be partially loaded: At Attribute: Identifier "reach-entity-attributes:attack_range" was not registered in registry "minecraft:attribute".; At Attribute: Identifier "reach-entity-attributes:reach" was not registered in registry "minecraft:attribute".
+[29abr2023 20:18:17.483] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 13 missing powers from bucolicraces:phoenixborn
+[29abr2023 20:18:17.486] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 8 missing powers from bucolicraces:fairy
+[29abr2023 20:18:17.491] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from origins:elytrian
+[29abr2023 20:18:17.492] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from bucolicraces:packrat
+[29abr2023 20:18:17.494] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from bucolicraces:llama
+[29abr2023 20:18:17.495] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from bucolicraces:creeper
+[29abr2023 20:18:17.497] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 11 missing powers from bucolicraces:bee
+[29abr2023 20:18:17.498] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from origins:blazeborn
+[29abr2023 20:18:17.500] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from bucolicraces:crab
+[29abr2023 20:18:17.503] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from bucolicraces:woodling
+[29abr2023 20:18:17.505] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 8 missing powers from bucolicraces:atlantean
+[29abr2023 20:18:17.508] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 1 missing powers from bucolicraces:theblind
+[29abr2023 20:18:17.510] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 9 missing powers from bucolicraces:tabbyborn
+[29abr2023 20:18:17.512] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from bucolicraces:illager
+[29abr2023 20:18:17.514] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from bucolicraces:orc
+[29abr2023 20:18:17.519] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 11 missing powers from bucolicraces:relic
+[29abr2023 20:18:17.520] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from bucolicraces:iceelemental
+[29abr2023 20:18:17.522] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 12 missing powers from bucolicraces:undead
+[29abr2023 20:18:17.524] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from bucolicraces:gnome
+[29abr2023 20:18:17.525] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 11 missing powers from bucolicraces:melon
+[29abr2023 20:18:17.527] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from bucolicraces:goblin
+[29abr2023 20:18:17.530] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 3 missing powers from bucolicraces:villager
+[29abr2023 20:18:17.532] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 14 missing powers from bucolicraces:vampire
+[29abr2023 20:18:17.534] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 11 missing powers from bucolicraces:butterfly
+[29abr2023 20:18:17.536] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from origins:enderian
+[29abr2023 20:18:17.538] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 13 missing powers from bucolicraces:candling
+[29abr2023 20:18:17.540] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from origins:feline
+[29abr2023 20:18:17.542] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 10 missing powers from bucolicraces:mush
+[29abr2023 20:18:17.543] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 10 missing powers from bucolicraces:brownie
+[29abr2023 20:18:17.544] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 11 missing powers from bucolicraces:pumpkin
+[29abr2023 20:18:17.547] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 3 missing powers from bucolicraces:sunwalker
+[29abr2023 20:18:17.549] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 12 missing powers from bucolicraces:enderfolk
+[29abr2023 20:18:17.553] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from origins:phantom
+[29abr2023 20:18:17.555] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from bucolicraces:chameleon
+[29abr2023 20:18:17.556] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from bucolicraces:worm
+[29abr2023 20:18:17.556] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from origins:avian
+[29abr2023 20:18:17.557] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 12 missing powers from bucolicraces:dryad
+[29abr2023 20:18:17.557] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from bucolicraces:phantom
+[29abr2023 20:18:17.558] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 9 missing powers from bucolicraces:troll
+[29abr2023 20:18:17.560] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from bucolicraces:airelemental
+[29abr2023 20:18:17.561] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 15 missing powers from bucolicraces:automaton
+[29abr2023 20:18:17.562] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 10 missing powers from bucolicraces:poltergeist
+[29abr2023 20:18:17.563] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 14 missing powers from bucolicraces:ghoul
+[29abr2023 20:18:17.565] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from bucolicraces:giant
+[29abr2023 20:18:17.566] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from bucolicraces:raccoon
+[29abr2023 20:18:17.568] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from bucolicraces:avian
+[29abr2023 20:18:17.569] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 11 missing powers from bucolicraces:gunling
+[29abr2023 20:18:17.571] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from bucolicraces:noble
+[29abr2023 20:18:17.571] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from origins:shulk
+[29abr2023 20:18:17.572] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from bucolicraces:dwarf
+[29abr2023 20:18:17.572] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 8 missing powers from bucolicraces:seraph
+[29abr2023 20:18:17.574] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 11 missing powers from bucolicraces:pixeling
+[29abr2023 20:18:17.574] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from origins:merling
+[29abr2023 20:18:17.575] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 7 missing powers from bucolicraces:elf
+[29abr2023 20:18:17.575] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 4 missing powers from origins:arachnid
+[29abr2023 20:18:17.576] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 13 missing powers from bucolicraces:demon
+[29abr2023 20:18:17.576] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 8 missing powers from bucolicraces:dragon
+[29abr2023 20:18:17.577] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 6 missing powers from bucolicraces:hare
+[29abr2023 20:18:17.578] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 18 missing powers from bucolicraces:irongolem
+[29abr2023 20:18:17.578] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 12 missing powers from bucolicraces:fireelemental
+[29abr2023 20:18:17.579] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 5 missing powers from bucolicraces:werewolf
+[29abr2023 20:18:17.583] [main/ERROR] [io.github.apace100.origins.Origins/]: Removed 8 missing powers from bucolicraces:beetle
+[29abr2023 20:18:17.690] [main/INFO] [com.patrigan.faction_craft.data.util.CodecJsonDataManager/]: Beginning loading of data for data loader: boost
+[29abr2023 20:18:17.693] [main/INFO] [com.patrigan.faction_craft.data.util.CodecJsonDataManager/]: Data loader for boost loaded 47 jsons
+[29abr2023 20:18:18.887] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[29abr2023 20:18:18.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29abr2023 20:18:18.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29abr2023 20:18:18.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29abr2023 20:18:18.978] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29abr2023 20:18:18.996] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[29abr2023 20:18:19.227] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\jei-server.toml is not correct. Correcting
+[29abr2023 20:18:19.230] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29abr2023 20:18:19.236] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[29abr2023 20:18:19.240] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[29abr2023 20:18:19.251] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[29abr2023 20:18:19.264] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\apoli-server.toml is not correct. Correcting
+[29abr2023 20:18:19.267] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key execute_command was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29abr2023 20:18:19.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key execute_command.permission_level was corrected from null to its default, 2. 
+[29abr2023 20:18:19.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key execute_command.show_output was corrected from null to its default, false. 
+[29abr2023 20:18:19.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_usage was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29abr2023 20:18:19.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_usage.enforce_food_restrictions was corrected from null to its default, true. 
+[29abr2023 20:18:19.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\controllable-server.toml is not correct. Correcting
+[29abr2023 20:18:19.291] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29abr2023 20:18:19.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restrictToController was corrected from null to its default, false. 
+[29abr2023 20:18:19.302] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\backpacked-server.toml is not correct. Correcting
+[29abr2023 20:18:19.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29abr2023 20:18:19.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.bannedItems was corrected from null to its default, [travelersbackpack:custom_travelers_backpack, pinesbarrels:better_barrel, quark:seed_pouch, quark:backpack, sophisticatedbackpacks:backpack, sophisticatedbackpacks:iron_backpack, sophisticatedbackpacks:gold_backpack, sophisticatedbackpacks:diamond_backpack, sophisticatedbackpacks:netherite_backpack, improvedbackpacks:tiny_pocket, improvedbackpacks:medium_pocket, improvedbackpacks:large_pocket, improvedbackpacks:white_backpack, improvedbackpacks:orange_backpack, improvedbackpacks:magenta_backpack, improvedbackpacks:light_blue_backpack, improvedbackpacks:yellow_backpack, improvedbackpacks:lime_backpack, improvedbackpacks:pink_backpack, improvedbackpacks:gray_backpack, improvedbackpacks:light_gray_backpack, improvedbackpacks:cyan_backpack, improvedbackpacks:purple_backpack, improvedbackpacks:blue_backpack, improvedbackpacks:brown_backpack, improvedbackpacks:green_backpack, improvedbackpacks:red_backpack, improvedbackpacks:black_backpack, immersiveengineering:toolbox, immersiveengineering:crate, immersiveengineering:reinforced_crate, create:white_toolbox, create:orange_toolbox, create:magenta_toolbox, create:light_blue_toolbox, create:yellow_toolbox, create:lime_toolbox, create:pink_toolbox, create:gray_toolbox, create:light_gray_toolbox, create:cyan_toolbox, create:purple_toolbox, create:blue_toolbox, create:brown_toolbox, create:green_toolbox, create:red_toolbox, create:black_toolbox, mekanism:personal_chest, supplementaries:sack]. 
+[29abr2023 20:18:19.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.disableCustomisation was corrected from null to its default, false. 
+[29abr2023 20:18:19.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.unlockAllBackpacks was corrected from null to its default, false. 
+[29abr2023 20:18:19.327] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.lockBackpackIntoSlot was corrected from null to its default, true. 
+[29abr2023 20:18:19.333] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.dropContentsFromShelf was corrected from null to its default, true. 
+[29abr2023 20:18:19.337] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.autoEquipBackpackOnPickup was corrected from null to its default, false. 
+[29abr2023 20:18:19.340] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.pickpocketBackpacks was corrected from null to its default, true. 
+[29abr2023 20:18:19.343] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.pickpocketDistance was corrected from null to its default, 1.5. 
+[29abr2023 20:18:19.344] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.pickpocketMaxRangeAngle was corrected from null to its default, 80.0. 
+[29abr2023 20:18:19.357] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\curios-server.toml is not correct. Correcting
+[29abr2023 20:18:19.359] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key curiosSettings was corrected from null to its default, []. 
+[29abr2023 20:18:19.390] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
+[29abr2023 20:18:19.394] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[29abr2023 20:18:19.401] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[29abr2023 20:18:19.404] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[29abr2023 20:18:19.407] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[29abr2023 20:18:19.411] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[29abr2023 20:18:19.417] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[29abr2023 20:18:19.421] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[29abr2023 20:18:19.423] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[29abr2023 20:18:19.466] [Server thread/INFO] [configured/]: Loading server configs...
+[29abr2023 20:18:19.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29abr2023 20:18:39.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29abr2023 20:18:40.791] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2023 20:18:40.813] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2023 20:18:40.873] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2023 20:18:41.279] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2023 20:18:41.738] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2023 20:18:42.073] [Netty Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[29abr2023 20:18:42.189] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2023 20:18:42.694] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2023 20:18:43.186] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[29abr2023 20:18:43.680] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[29abr2023 20:18:44.187] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[29abr2023 20:18:44.687] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[29abr2023 20:18:45.206] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[29abr2023 20:18:45.687] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[29abr2023 20:18:46.183] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[29abr2023 20:18:46.685] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[29abr2023 20:18:47.179] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[29abr2023 20:18:47.686] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[29abr2023 20:18:48.185] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[29abr2023 20:18:48.682] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[29abr2023 20:18:49.180] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[29abr2023 20:18:49.690] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[29abr2023 20:18:50.186] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[29abr2023 20:18:50.679] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[29abr2023 20:18:51.179] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[29abr2023 20:18:51.679] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[29abr2023 20:18:52.189] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[29abr2023 20:18:52.681] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[29abr2023 20:18:53.185] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[29abr2023 20:18:53.686] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[29abr2023 20:18:54.187] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[29abr2023 20:18:54.683] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[29abr2023 20:18:55.181] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[29abr2023 20:18:55.687] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[29abr2023 20:18:56.180] [Worker-Main-12/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[29abr2023 20:18:56.679] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[29abr2023 20:18:57.183] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[29abr2023 20:18:57.680] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[29abr2023 20:18:58.196] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[29abr2023 20:18:58.682] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[29abr2023 20:18:59.184] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[29abr2023 20:18:59.687] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[29abr2023 20:19:00.187] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[29abr2023 20:19:00.681] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[29abr2023 20:19:01.179] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[29abr2023 20:19:01.692] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[29abr2023 20:19:02.184] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[29abr2023 20:19:02.681] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[29abr2023 20:19:03.182] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[29abr2023 20:19:03.690] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
+[29abr2023 20:19:04.179] [Worker-Main-14/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[29abr2023 20:19:04.688] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[29abr2023 20:19:05.222] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[29abr2023 20:19:05.707] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[29abr2023 20:19:06.190] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[29abr2023 20:19:06.698] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[29abr2023 20:19:07.183] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[29abr2023 20:19:07.460] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 27782 ms
+[29abr2023 20:19:07.462] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (48.244s)! For help, type "help"
+[29abr2023 20:19:07.484] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29abr2023 20:19:07.501] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[29abr2023 20:19:21.070] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player daniertu is ea601adf-d372-496f-96a8-f4b0975d3902
+[29abr2023 20:19:21.118] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 0
+[29abr2023 20:19:21.164] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 1
+[29abr2023 20:19:21.214] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 2
+[29abr2023 20:19:21.262] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 3
+[29abr2023 20:19:21.314] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 4
+[29abr2023 20:19:21.364] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 5
+[29abr2023 20:19:21.509] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 6
+[29abr2023 20:19:21.512] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 7
+[29abr2023 20:19:21.518] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 8
+[29abr2023 20:19:21.561] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 9
+[29abr2023 20:19:21.606] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 10
+[29abr2023 20:19:21.657] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 11
+[29abr2023 20:19:21.736] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 12
+[29abr2023 20:19:21.764] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 13
+[29abr2023 20:19:21.831] [Netty Server IO #3/INFO] [Calio/]: Received acknowledgment for login packet with id 14
+[29abr2023 20:19:25.214] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[29abr2023 20:19:25.273] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@490c018d
+[29abr2023 20:19:25.287] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: daniertu[/25.79.22.195:49478] logged in with entity id 637 at (-4.5, 77.0, -5.5)
+[29abr2023 20:19:25.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: daniertu joined the game
+[29abr2023 20:20:11.152] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff_raw_beef] from power ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff]
+[29abr2023 20:20:11.153] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff_rottenflesh] from power ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff]
+[29abr2023 20:20:11.155] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff_raw_salmon] from power ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff]
+[29abr2023 20:20:11.156] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff_raw_cod] from power ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff]
+[29abr2023 20:20:11.160] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff_raw_chicken] from power ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff]
+[29abr2023 20:20:11.162] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff_raw_rabbit] from power ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff]
+[29abr2023 20:20:11.167] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff_raw_pork] from power ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff]
+[29abr2023 20:20:11.170] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff_raw_mutton] from power ResourceKey[apoli:configured_power / bucolicraces:diet_modifiers/rawbuff]
+[29abr2023 20:20:11.173] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:ally_modifiers/trading_wandinging_trader] from power ResourceKey[apoli:configured_power / bucolicraces:ally_modifiers/trading]
+[29abr2023 20:20:11.178] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:ally_modifiers/trading_villager] from power ResourceKey[apoli:configured_power / bucolicraces:ally_modifiers/trading]
+[29abr2023 20:20:11.182] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:ally_modifiers/irongolemmad_tag] from power ResourceKey[apoli:configured_power / bucolicraces:ally_modifiers/irongolemmad]
+[29abr2023 20:20:11.185] [Server thread/INFO] [io.github.apace100.apoli.Apoli/]: Adding subpower ResourceKey[apoli:configured_power / bucolicraces:ally_modifiers/irongolemmad_mad] from power ResourceKey[apoli:configured_power / bucolicraces:ally_modifiers/irongolemmad]
+[29abr2023 20:20:57.442] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: daniertu lost connection: Disconnected
+[29abr2023 20:20:57.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: daniertu left the game
+[29abr2023 20:21:04.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[29abr2023 20:21:04.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29abr2023 20:21:04.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29abr2023 20:21:04.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29abr2023 20:21:05.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[29abr2023 20:21:06.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[29abr2023 20:21:06.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[29abr2023 20:21:06.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29abr2023 20:21:06.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29abr2023 20:21:06.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29abr2023 20:21:06.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29abr2023 20:21:06.595] [Server thread/INFO] [configured/]: Unloading server configs...
+[29abr2023 20:21:06.597] [Server thread/INFO] [configured/]: Sending config unload event for configured.developer.toml
+[29abr2023 20:21:06.599] [Server thread/INFO] [Calio/]: Removing Dynamic Registries for: net.minecraft.server.dedicated.DedicatedServer@12142161
