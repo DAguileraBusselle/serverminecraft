@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "uuid": "a92084f8-1863-4b85-bf00-46d94ea988bb",
+    "name": "BLANDIC",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d997eb8f-3224-4cb5-9de6-7e2b9855135c",
+    "name": "Ground_Cero",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ea601adf-d372-496f-96a8-f4b0975d3902",
+    "name": "daniertu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d4881c96-38cb-4500-8569-d65ff1e40ae2",
+    "name": "moriomm",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
