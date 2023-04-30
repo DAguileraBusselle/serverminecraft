@@ -1,7 +1,13 @@
 {
-  "minecraft:recipes/combat/wooden_sword": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_stick": "2023-04-29 20:41:38 +0200"
+      "has_furnace": "2023-04-30 14:09:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-04-30 14:06:00 +0200"
     },
     "done": true
   },
@@ -11,21 +17,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/redstone/lever": {
     "criteria": {
-      "in_water": "2023-04-29 20:52:04 +0200"
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
     },
     "done": true
   },
-  "tombstone:adventure/root": {
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
-      "auto": "2023-04-29 20:34:24 +0200"
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
     },
     "done": true
   },
-  "backpacked:recipes/backpacked/birch_backpack_shelf": {
+  "minecraft:recipes/redstone/oak_button": {
     "criteria": {
-      "has_stick": "2023-04-29 20:41:38 +0200"
+      "has_planks": "2023-04-30 14:06:00 +0200"
     },
     "done": true
   },
@@ -47,31 +53,54 @@
     },
     "done": true
   },
+  "minecolonies:recipes/structurize/shapetool": {
+    "criteria": {
+      "has_stick": "2023-04-30 14:04:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2023-04-30 14:07:35 +0200"
+    },
+    "done": true
+  },
   "tombstone:recipes/from_grave_dust": {
     "criteria": {
       "has_ingredient": "2023-04-29 20:55:08 +0200"
     },
     "done": true
   },
-  "tombstone:recipes/from_grave_key": {
+  "minecraft:story/mine_stone": {
     "criteria": {
-      "has_ingredient": "2023-04-29 20:54:46 +0200"
+      "get_stone": "2023-04-30 14:08:45 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_hoe": {
+  "minecraft:recipes/building_blocks/stone": {
     "criteria": {
-      "has_stick": "2023-04-29 20:41:38 +0200"
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:sunflower_plains": "2023-04-30 14:01:01 +0200",
       "minecraft:birch_forest": "2023-04-29 20:34:24 +0200",
+      "minecraft:windswept_hills": "2023-04-30 13:58:56 +0200",
       "minecraft:dark_forest": "2023-04-29 20:45:10 +0200",
       "minecraft:river": "2023-04-29 20:52:00 +0200",
       "minecraft:forest": "2023-04-29 20:52:46 +0200",
-      "minecraft:old_growth_birch_forest": "2023-04-29 20:52:08 +0200"
+      "minecraft:windswept_forest": "2023-04-30 13:58:55 +0200",
+      "minecraft:flower_forest": "2023-04-30 14:00:55 +0200",
+      "minecraft:old_growth_birch_forest": "2023-04-29 20:52:08 +0200",
+      "minecraft:plains": "2023-04-30 13:59:02 +0200"
     },
     "done": false
   },
@@ -81,9 +110,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2023-04-30 14:03:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2023-04-30 14:06:00 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2023-04-29 20:41:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
     },
     "done": true
   },
@@ -93,9 +140,27 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-04-30 14:12:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2023-04-29 20:52:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_the_recipe": "2023-04-30 14:07:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
     },
     "done": true
   },
@@ -105,9 +170,225 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2023-04-30 14:06:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2023-04-30 14:06:00 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2023-04-29 20:41:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-04-29 20:52:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_the_recipe": "2023-04-30 14:09:47 +0200"
+    },
+    "done": true
+  },
+  "backpacked:recipes/backpacked/warped_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-04-29 20:41:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
+    },
+    "done": true
+  },
+  "backpacked:recipes/backpacked/jungle_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-04-29 20:41:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2023-04-30 14:06:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2023-04-30 14:06:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-04-30 14:07:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2023-04-30 14:06:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2023-04-30 14:12:35 +0200"
+    },
+    "done": true
+  },
+  "goety:goety/root": {
+    "criteria": {
+      "tick": "2023-04-29 20:34:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-04-29 20:52:04 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2023-04-29 20:55:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-04-29 20:52:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2023-04-30 14:07:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2023-04-29 20:41:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2023-04-30 14:03:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-04-29 20:52:04 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2023-04-29 20:34:24 +0200"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/minecolonies/supplycampdeployer": {
+    "criteria": {
+      "has_chest": "2023-04-30 14:07:00 +0200"
+    },
+    "done": true
+  },
+  "backpacked:recipes/backpacked/birch_backpack_shelf": {
+    "criteria": {
+      "has_stick": "2023-04-29 20:41:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_salmon": "2023-04-30 14:12:06 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2023-04-29 20:41:38 +0200"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2023-04-29 20:54:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-04-30 14:06:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2023-04-30 14:10:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2023-04-30 14:03:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2023-04-30 14:07:35 +0200"
     },
     "done": true
   },
@@ -117,9 +398,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
+  "minecraft:story/root": {
     "criteria": {
-      "in_water": "2023-04-29 20:52:04 +0200"
+      "crafting_table": "2023-04-30 14:06:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2023-04-30 14:06:00 +0200"
     },
     "done": true
   },
@@ -135,21 +422,21 @@
     },
     "done": true
   },
-  "backpacked:recipes/backpacked/warped_backpack_shelf": {
-    "criteria": {
-      "has_stick": "2023-04-29 20:41:38 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2023-04-29 20:52:04 +0200"
     },
     "done": true
   },
-  "backpacked:recipes/backpacked/jungle_backpack_shelf": {
+  "minecraft:recipes/tools/stone_axe": {
     "criteria": {
-      "has_stick": "2023-04-29 20:41:38 +0200"
+      "has_cobblestone": "2023-04-30 14:08:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2023-04-30 14:06:00 +0200"
     },
     "done": true
   },
@@ -159,27 +446,15 @@
     },
     "done": true
   },
-  "goety:goety/root": {
+  "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
-      "tick": "2023-04-29 20:34:23 +0200"
+      "has_planks": "2023-04-30 14:06:00 +0200"
     },
     "done": true
   },
-  "tombstone:adventure/cancel_ghostly_shape": {
+  "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
-      "coded_trigger": "2023-04-29 20:55:04 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2023-04-29 20:52:04 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2023-04-29 20:52:04 +0200"
+      "has_planks": "2023-04-30 14:06:00 +0200"
     },
     "done": true
   },
