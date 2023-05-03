@@ -2666,6 +2666,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/use_disenchantment": {
+    "criteria": {
+      "coded_trigger": "2023-05-03 15:24:33 +0200"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/starlit_bookshelf": {
     "criteria": {
       "has_item": "2023-05-02 19:50:16 +0200"
@@ -3806,6 +3812,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/knowledge_wasted": {
+    "criteria": {
+      "coded_trigger": "2023-05-03 15:24:33 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2023-04-29 22:46:59 +0200"
@@ -4130,6 +4142,12 @@
     },
     "done": false
   },
+  "blue_skies:recipes/blue_skies_everbright_blocks/frostbright_ladder": {
+    "criteria": {
+      "has_item": "2023-05-03 15:28:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2023-04-29 22:28:54 +0200"
@@ -4229,6 +4247,12 @@
   "minecolonies:recipes/combat/chainmailchestplate": {
     "criteria": {
       "has_iron": "2023-04-29 22:17:25 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/30ench": {
+    "criteria": {
+      "enchanted_item": "2023-05-03 15:09:21 +0200"
     },
     "done": true
   },
