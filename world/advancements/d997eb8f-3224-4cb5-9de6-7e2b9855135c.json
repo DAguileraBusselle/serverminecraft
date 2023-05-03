@@ -790,6 +790,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-05-03 13:28:09 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-05-02 15:38:25 +0200"
@@ -931,6 +937,12 @@
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2023-05-02 12:20:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2023-05-03 13:19:07 +0200"
     },
     "done": true
   },
@@ -1683,6 +1695,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2023-05-01 19:34:24 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_endshelf": {
+    "criteria": {
+      "blazing": "2023-05-03 13:41:14 +0200"
     },
     "done": true
   },
@@ -2657,6 +2675,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2023-05-03 13:19:07 +0200"
+    },
+    "done": true
+  },
   "minecolonies:recipes/minecolonies/supplycampdeployer": {
     "criteria": {
       "has_chest": "2023-05-01 18:39:24 +0200"
@@ -2696,6 +2720,12 @@
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2023-04-29 22:59:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2023-05-03 13:19:07 +0200"
     },
     "done": true
   },
@@ -3472,6 +3502,12 @@
   "blue_skies:everbright/get_falsite": {
     "criteria": {
       "obtain_material": "2023-05-02 20:00:35 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_seashelf": {
+    "criteria": {
+      "heart": "2023-05-03 13:44:43 +0200"
     },
     "done": true
   },
