@@ -1530,6 +1530,12 @@
     },
     "done": true
   },
+  "blue_skies:recipes/blue_skies_misc/winter_leaf_seeds": {
+    "criteria": {
+      "has_item": "2023-05-08 22:47:12 +0200"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_cobblestone_wall": {
     "criteria": {
       "has_item": "2023-05-02 18:12:00 +0200"
@@ -2198,6 +2204,12 @@
   "blue_skies:recipes/blue_skies_tools/maple_pickaxe": {
     "criteria": {
       "has_resource": "2023-05-02 18:04:51 +0200"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/scalefruit_seeds": {
+    "criteria": {
+      "has_item": "2023-05-08 22:48:09 +0200"
     },
     "done": true
   },
@@ -3460,6 +3472,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2023-04-29 23:06:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2023-05-08 21:20:13 +0200"
     },
     "done": true
   },

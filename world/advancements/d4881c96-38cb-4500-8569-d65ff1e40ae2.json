@@ -368,9 +368,10 @@
   },
   "twilightforest:progress_trophy_pedestal": {
     "criteria": {
-      "kill_lich": "2023-05-04 21:44:37 +0200"
+      "kill_lich": "2023-05-04 21:44:37 +0200",
+      "trophy_pedestal": "2023-05-08 22:30:25 +0200"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
@@ -738,6 +739,12 @@
     },
     "done": true
   },
+  "twilightforest:recipes/twilightforest/equipment/fiery_fiery_boots": {
+    "criteria": {
+      "has_item": "2023-05-08 21:57:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_banner": {
     "criteria": {
       "has_red_wool": "2023-05-02 00:07:57 +0200"
@@ -773,6 +780,13 @@
       "iron_pickaxe": "2023-04-29 23:47:56 +0200"
     },
     "done": true
+  },
+  "twilightforest:progress_merge": {
+    "criteria": {
+      "hydra": "2023-05-08 21:56:49 +0200",
+      "ur_ghast": "2023-05-08 23:18:52 +0200"
+    },
+    "done": false
   },
   "twilightforest:recipes/twilightforest/food/campfired_venison": {
     "criteria": {
@@ -864,6 +878,13 @@
     },
     "done": true
   },
+  "twilightforest:progress_knights": {
+    "criteria": {
+      "all_knights": "2023-05-08 22:46:40 +0200",
+      "previous_progression": "2023-05-08 22:30:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mud_brick_stairs": {
     "criteria": {
       "has_mud_bricks": "2023-05-01 18:55:48 +0200"
@@ -890,9 +911,10 @@
   },
   "twilightforest:progress_labyrinth": {
     "criteria": {
+      "meef": "2023-05-08 21:51:53 +0200",
       "kill_lich": "2023-05-04 21:44:37 +0200"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
@@ -1346,6 +1368,12 @@
     },
     "done": true
   },
+  "twilightforest:experiment_115": {
+    "criteria": {
+      "eat_experiment_115": "2023-05-08 22:51:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2023-04-29 22:46:11 +0200"
@@ -1390,7 +1418,9 @@
   },
   "twilightforest:arborist": {
     "criteria": {
+      "twilight_oak_log": "2023-05-08 22:53:31 +0200",
       "twilight_oak_sapling": "2023-05-04 21:10:57 +0200",
+      "darkwood_sapling": "2023-05-08 22:48:55 +0200",
       "canopy_sapling": "2023-05-04 21:48:45 +0200"
     },
     "done": false
@@ -1410,6 +1440,12 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_sand": "2023-04-29 22:55:17 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/twilightforest/equipment/fiery_fiery_leggings": {
+    "criteria": {
+      "has_item": "2023-05-08 21:57:13 +0200"
     },
     "done": true
   },
@@ -1446,6 +1482,13 @@
   "minecolonies:recipes/combat/chainmailboots": {
     "criteria": {
       "has_iron": "2023-04-29 22:46:11 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "kill_hydra": "2023-05-08 21:56:49 +0200",
+      "stroganoff": "2023-05-08 21:51:53 +0200"
     },
     "done": true
   },
@@ -1791,6 +1834,12 @@
     },
     "done": true
   },
+  "twilightforest:recipes/twilightforest/compressed_blocks/carminite_block": {
+    "criteria": {
+      "has_item": "2023-05-08 23:19:30 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2023-05-01 23:40:45 +0200"
@@ -2083,7 +2132,10 @@
     "criteria": {
       "raw_meef": "2023-05-04 21:59:46 +0200",
       "raw_venison": "2023-05-04 21:14:07 +0200",
-      "maze_wafer": "2023-05-04 22:06:31 +0200"
+      "meef_stroganoff": "2023-05-08 21:51:53 +0200",
+      "maze_wafer": "2023-05-04 22:06:31 +0200",
+      "hydra_chop": "2023-05-08 21:57:57 +0200",
+      "experiment_115": "2023-05-08 22:51:43 +0200"
     },
     "done": false
   },
@@ -2556,6 +2608,12 @@
     },
     "done": true
   },
+  "twilightforest:recipes/twilightforest/equipment/fiery_iron_sword": {
+    "criteria": {
+      "has_item": "2023-05-08 21:57:13 +0200"
+    },
+    "done": true
+  },
   "minecolonies:recipes/decorations/doublegrass": {
     "criteria": {
       "has_grass": "2023-05-04 20:25:56 +0200"
@@ -2676,6 +2734,12 @@
     },
     "done": true
   },
+  "twilightforest:recipes/twilightforest/wood/twilight_oak_wood": {
+    "criteria": {
+      "has_item": "2023-05-08 22:53:31 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2023-04-29 22:55:17 +0200"
@@ -2697,6 +2761,12 @@
   "minecraft:recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting": {
     "criteria": {
       "has_mud_bricks": "2023-05-01 18:55:48 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/twilightforest/equipment/fiery_fiery_helmet": {
+    "criteria": {
+      "has_item": "2023-05-08 21:57:13 +0200"
     },
     "done": true
   },
@@ -2856,6 +2926,12 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2023-04-29 23:55:28 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:ghast_trap": {
+    "criteria": {
+      "activate_ghast_trap": "2023-05-08 23:08:05 +0200"
     },
     "done": true
   },
@@ -3477,6 +3553,12 @@
     },
     "done": true
   },
+  "twilightforest:recipes/twilightforest/carminite_reactor": {
+    "criteria": {
+      "has_item": "2023-05-08 23:19:30 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall": {
     "criteria": {
       "has_andesite": "2023-04-30 14:36:13 +0200"
@@ -3597,6 +3679,12 @@
     },
     "done": true
   },
+  "twilightforest:recipes/twilightforest/equipment/fiery_iron_pickaxe": {
+    "criteria": {
+      "has_item": "2023-05-08 21:57:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2023-05-01 18:00:58 +0200"
@@ -3657,9 +3745,21 @@
     },
     "done": true
   },
+  "twilightforest:recipes/twilightforest/equipment/fiery_fiery_chestplate": {
+    "criteria": {
+      "has_item": "2023-05-08 21:57:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2023-04-29 20:36:36 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/twilightforest/wood/twilight_oak_planks": {
+    "criteria": {
+      "has_item": "2023-05-08 22:53:31 +0200"
     },
     "done": true
   },
@@ -3778,6 +3878,12 @@
     },
     "done": false
   },
+  "twilightforest:recipes/twilightforest/hydra_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2023-05-08 21:57:10 +0200"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_trapdoor": {
     "criteria": {
       "has_item": "2023-05-02 18:15:54 +0200"
@@ -3817,6 +3923,12 @@
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2023-04-29 20:50:59 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/twilightforest/ur_ghast_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2023-05-08 23:19:27 +0200"
     },
     "done": true
   },
@@ -3916,6 +4028,12 @@
     },
     "done": true
   },
+  "twilightforest:recipes/twilightforest/carminite_builder": {
+    "criteria": {
+      "has_item": "2023-05-08 23:19:30 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2023-05-01 20:00:21 +0200"
@@ -3979,6 +4097,12 @@
   "tombstone:adventure/strong_or_careful": {
     "criteria": {
       "coded_trigger": "2023-04-30 14:55:54 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/twilightforest/knight_phantom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2023-05-08 22:46:50 +0200"
     },
     "done": true
   },
@@ -4218,6 +4342,12 @@
     },
     "done": true
   },
+  "twilightforest:recipes/twilightforest/equipment/fiery_ingot_crafting": {
+    "criteria": {
+      "has_item": "2023-05-08 21:57:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2023-05-01 19:18:39 +0200"
@@ -4338,6 +4468,13 @@
     },
     "done": true
   },
+  "twilightforest:progress_ur_ghast": {
+    "criteria": {
+      "previous_progression": "2023-05-08 22:46:40 +0200",
+      "ghast": "2023-05-08 23:18:52 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2023-04-29 20:50:59 +0200"
@@ -4371,6 +4508,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2023-05-01 18:26:59 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/twilightforest/charm_of_keeping_2": {
+    "criteria": {
+      "has_item": "2023-05-08 22:34:15 +0200"
     },
     "done": true
   },
